@@ -115,7 +115,7 @@ const Calendar = ({navigation}) => {
         </TouchableHighlight>
         <TouchableHighlight onPress={green}>
           <View style={{width: 300, height: 50,backgroundColor: "#758773", margin: 10}}>
-            <Text style={styles.textLanding}> >3 Days Left </Text>
+            <Text style={styles.textLanding}> 3+ Days Left </Text>
           </View>
         </TouchableHighlight>
         <TouchableHighlight onPress={() => navigation.navigate('DonateMap')}>
